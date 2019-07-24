@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundAzul{
+    display: block;
+    position: relative;
+    top: 0px;
+    width: 375px;
+    height: 298px;
+    z-index: 0;
+    border-radius: 0 0 32px 0;
+}
+.namePerfil {
+    position: relative;
+    top: -250px;
+    right: -30px;
+    height: 28px;
+    width: 131px;
+    opacity: 0.9;
+    color: white;
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.39px;	
+    line-height: 28px;
+}
+
+.pencil {  
+    position: relative;
+    top: -275px;
+    left: 320px;
+    color: white;
+    width: 22px;
+    height: 21,97px;
+}
+
+.perfilFoto{
+    position: absolute;
+    top: 100px;
+    display: block;
+    width: 327px;
+    height: 296px;
+    z-index: 1;
+}
+
+.containerImagemGeral{
+    position: relative;
+    top: 100px;
+    height: 222px;
+    width: 327px;
+}
+
+.imgInferior{
+    position: relative;
+    top: 60px;
+    height: 94.5px;
+    width: 100px;
+}
+
+.containerImagemConquista{
+    position: relative;
+    top: 140px;
+    height: 86px;
+    width: 327px;
+}
