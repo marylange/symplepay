@@ -9,9 +9,62 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
     .menu {
-        height: 13px;
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 67px;
+    }
+    .wallet {
+        margin-left: 3.47%;
+    }
+    .add-card {
+       margin-right: 24px;
+    }
+
+    .card-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 17px;
+        margin-bottom: 118px;
+    }
+
+    .cards {
+        width: 351px;
+        margin-left: 24px;
+    }
+
+    .remaining-amount {
+        width: 87.2%;
+        margin-top: 24px;
+    }
+
+    .expenses {
+        width: 79.47%;
+        margin-top: 24px;
+    }
+
+    .send-credits {
+        width: 93.87%;
+        margin-top: 24px;
+        margin-left: 6.13%;
+    }
+
+    .history {
+        width: 84%;
+        margin-top: 2.96%;
+    }
+
+    .transaction {
+        margin-top: 3%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }

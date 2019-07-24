@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    height: 812px;
+}
+
+.cabecalho {
+    background: url("img/Background.png");
+    background-repeat: no-repeat;
+    height: 446px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notification {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 72px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.transactions {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.festival {
+    margin-top: 2%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

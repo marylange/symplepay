@@ -52,16 +52,19 @@
     width: 327px;
 }
 
-.imgInferior{
-    position: relative;
-    top: 60px;
-    height: 94.5px;
-    width: 100px;
-}
-
 .containerImagemConquista{
     position: relative;
     top: 140px;
     height: 86px;
     width: 327px;
+    margin-bottom: 20%;
+}
+
+footer{
+    position: fixed;
+    margin-bottom: 5%;
+    bottom: 0;
+    left: 0;
+    height: 94.5px;
+    width: 100px;
 }
