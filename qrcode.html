@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="qrcode.css">
-    <title>QR code fail</title>
+    <title>QR code</title>
 </head>
 <body>
    <div class="container">
        <div class="Background-azul">
-            <img src="./img/qrcode-completo.png" alt="Tela fundo">
+            <img src="./img/qrcode-completo.png" alt="Tela fundo" usemap="#qrcodemap">
+            <map name="qrcodemap">
+                <area shape="rect" coords="81,91,292,303" href="loading.html" alt="qrcode">
+            </map>
            <!-- <img src="./img/qr_code_PNG2.png" class="qrcode" alt="qr code">-->
        </div>
        <div class="menu">
-            <img src="./img/Tabbar.png" alt="menu">
+            <img src="./img/Tabbar.png" alt="menu" usemap="#footermap">
+            <map name="footermap">
+                <area shape="circle" coords="187,28,24" href="payment.html">
+                <area shape="rect" coords="29,24,65,65" href="home.html" alt="home">
+                <area shape="rect" coords="95,44,142,90" href="expenses.html" alt="expenses">
+                <area shape="rect" coords="235,25,277,66" href="wallet.html" alt="wallet">
+                <area shape="rect" coords="309,25,343,66" href="profile.html" alt="profile">
+            </map>
        </div>
 
    </div> 
