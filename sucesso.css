@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Background-verde{
+    background: url("./img/Backgroundverde.png");
+    background-repeat: no-repeat;
+    height: 717.5px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+}

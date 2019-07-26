@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Background-azul {
+    background: url("./img/background-azul.png");
+    width: 375px;
+    height: 347px;
+    margin-top: -30px;
+}
+
+.Background-azul>img{
+    position: relative;
+    height: 478px;
+    width: 348px;
+    margin-top: 86px;
+    margin-bottom: 249px;
+    margin-left: 13px;
+    margin-right: 14px;
+    
+}
+.qrcode{
+    height: 247px;
+    width: 247px;
+    margin-top: 173px;
+    margin-bottom: 392px;
+    margin-left: 64px;
+    margin-right: 64px;
+
+}
+.menu{
+    height: 94.5px;
+    width: 375px;
+    margin-top: 717px;
+}
+
+/*.loading {
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 166px;
+    margin-left: 88px;
+    margin-right: 87px;
+}*/
