@@ -15,7 +15,6 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    margin-bottom: 20%;
 }
 
 .footer>p {
@@ -24,7 +23,6 @@
     background-color: black;
     width: 39px;
     height: 15px;
-    
     margin-left: 168px;
     color: #ffffff;
     font-size: 11px;
