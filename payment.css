@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 104px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer>p {
+    font-family: 'Avenir';
+    background-color: black;
+    width: 39px;
+    height: 15px;
+    margin-top: 738px;
+    margin-left: 168px;
+    color: #ffffff;
+    font-size: 11px;
+}
